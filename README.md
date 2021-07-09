@@ -1,24 +1,15 @@
-# README
+# Louisiana Brewery API 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the backend repository for my React project, for Flatiron's phase 5 module. This API contains information on local Louisiana Craft Breweries. This API was created with Ruby On Rails using the --api shortcut. 
 
-Things you may want to cover:
+## Starting Application 
 
-* Ruby version
+The Rails server must be started prior to starting the frontend server. 
+To do this, 
+-run "rails s" in your terminal and navigate to "http://localhost:3000/breweries"
 
-* System dependencies
+Here you'll be able to see all of the breweries located in Louisiana. Data contains name, address, city, and parish. 
 
-* Configuration
+Once server is started, fork and clone frontend repository "https://github.com/bclarke329/la-breweries-front"
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Once the frontend repo has been forked and cloned, run "npm start" in your terminal and enjoy! 

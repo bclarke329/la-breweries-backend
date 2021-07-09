@@ -8,7 +8,7 @@ class ReviewsController < ApplicationController
     # before_action :set_character, only: [:show, :update, :destroy]
     # GET /characters
     def index
-       review = review.all 
+       review = Review.all 
       render json: review
     end
   

@@ -218,23 +218,3 @@ Brewery.destroy_all
     }
 ])
 
-Review.create([
-    {
-        name: 'Bessy C.',
-        title: 'Pet friendly',
-        review_desc: 'I love hanging at Second Line Brewery. Their beer garden is pet friendly and they even provide water bowls for our pup on hot days. There are so many picnic tables, so even on busy days, we always manage to find a place to sit. Make sure to try their Saison Named Desire. It is the perfect summer beer',
-        brewery_id: 26
-    },
-    {
-        name: 'Charlotte S.'
-        title: 'Love this place after long cycles!'
-        review_desc: 'Abita Brewery is right along my favorite cycling track. It is a great place to unwind and cool off after cycling.'
-        brewery_id: 1
-    },
-    {
-        name: 'Lauren S.'
-        title: 'Great place for the whole family',
-        review_desc: 'I love their Jucifer IPA, but also love that I can hang here with my kids.They have a games, like horseshow and bocce ball to keep the kiddos entertained.',
-        brewery_id: 12
-    }
-])
